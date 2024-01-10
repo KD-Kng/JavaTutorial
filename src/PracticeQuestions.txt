@@ -1,0 +1,26 @@
+Question 1) create the following pattern using the for loop. pattern is:
+*
+**
+***
+****
+*****
+
+Question 2) Find the first n numbers in a fibonacci series. Take n as a input from the user. Start the fibonacci series from 0.
+For example if user entered 8, then the result should be 0 1 1 2 3 5 8 13.
+
+Question 3) Find the sum of first n prime numbers. Take n as a input from the user. For example if user entered 5, then the result should be 18(1+2+3+5+7).
+
+Question 4) Input a number from the user and reverse it and print it. Example user entered 1234, you should print 4321. Do not use String.
+
+Question 5) Print the initials of your name using loop. Ex
+
+
+*    *	 *****
+*  *	 *    *
+**	 *   *     *
+*  *	 *    *
+*    *	 *****
+
+
+{1   2   3   4}
+{5   6   7   8}
