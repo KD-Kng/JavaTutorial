@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 /*Question 2) Take marks for 6 subjects and then find the average of their marks.
 Then assign a grade to that student based on the average mark from the table below :
@@ -13,6 +12,8 @@ Then assign a grade to that student based on the average mark from the table bel
         Print the average and grade of each student.
         At last find and print the student who got the third highest grade for average marks.
 */
+
+import java.util.Scanner;
 public class Marks {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
