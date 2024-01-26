@@ -17,30 +17,46 @@ public class Marks {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-            int maths = sc.nextInt();
-            int sst = sc.nextInt();
-            int hindi = sc.nextInt();
-            int chem = sc.nextInt();
-            int phy = sc.nextInt();
-            int bio = sc.nextInt();
+            int i =0;
 
-            int avg = (maths + sst + hindi + chem + phy + bio) / 6;
-            System.out.println("Average marks" + avg);
+            while(i<5) {
+                System.out.println("Enter your Maths marks here");
+                int maths = sc.nextInt();
 
-            if (avg > 90) {
-                System.out.println("Grade is A+");
-            } else if (avg < 90 && avg > 85) {
-                System.out.println("Grade is A");
-            } else if (avg < 85 && avg > 79) {
-                System.out.println("Grade is A-");
-            } else if (avg < 79 && avg > 71) {
-                System.out.println("Grade is B+");
-            } else if (avg < 71 && avg > 60) {
-                System.out.println("Grade is B");
-            } else if (avg < 60 && avg > 51) {
-                System.out.println("Grade is B-");
-            } else {
-                System.out.println("Fail");
-        }
+                System.out.println("Enter your Social Studies marks here");
+                int sst = sc.nextInt();
+
+                System.out.println("Enter your Hindi marks here");
+                int hindi = sc.nextInt();
+
+                System.out.println("Enter your Chemistry marks here");
+                int chem = sc.nextInt();
+
+                System.out.println("Enter your Physics marks here");
+                int phy = sc.nextInt();
+
+                System.out.println("Enter your Bio marks here");
+                int bio = sc.nextInt();
+
+                int avg = (maths + sst + hindi + chem + phy + bio) / 6;
+                System.out.println("Average marks" + avg);
+
+                if (avg > 90) {
+                    System.out.println("Grade is A+");
+                } else if (avg < 90 && avg > 85) {
+                    System.out.println("Grade is A");
+                } else if (avg < 85 && avg > 79) {
+                    System.out.println("Grade is A-");
+                } else if (avg < 79 && avg > 71) {
+                    System.out.println("Grade is B+");
+                } else if (avg < 71 && avg > 60) {
+                    System.out.println("Grade is B");
+                } else if (avg < 60 && avg > 51) {
+                    System.out.println("Grade is B-");
+                } else {
+                    System.out.println("Fail");
+                }
+                i++;
+            }
     }
 }
