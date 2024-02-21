@@ -14,10 +14,9 @@ Question 4) Input a number from the user and reverse it and print it. Example us
 
 Question 5) Print the initials of your name using loop. Ex
 
-
 *    *	 *****
 *  *	 *    *
-**	 *   *     *
+**	     *     *
 *  *	 *    *
 *    *	 *****
 
